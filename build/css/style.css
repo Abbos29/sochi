@@ -434,6 +434,10 @@ nav {
   color: #444444;
 }
 
+.benefits {
+  padding: 50px 0 100px;
+}
+
 .benefits__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -492,6 +496,78 @@ nav {
   position: relative;
   z-index: 2;
   margin-right: -140px;
+}
+
+.reviews {
+  padding: 120px 0;
+  background: #EAF4F2;
+}
+
+.reviews__pretitle {
+  text-align: center;
+}
+
+.reviews__title {
+  text-align: center;
+  margin: 10px 0 50px;
+}
+
+.reviews__swiper {
+  width: 616px;
+  margin: 0 auto;
+}
+
+.reviews__slider {
+  width: 616px;
+}
+
+.reviews__slide {
+  max-width: 616px;
+  margin: 0 auto;
+  padding: 60px 80px;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.reviews__text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444444;
+  margin-bottom: 40px;
+}
+
+.reviews__user {
+  width: 170px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+.reviews__user-icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.reviews__user-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 23px;
+  color: #444444;
+}
+
+.reviews__user-text span {
+  font-size: 20px;
+  line-height: 26px;
+  color: #111B19;
 }
 
 @media screen and (max-width: 991.98px) {

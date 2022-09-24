@@ -168,6 +168,7 @@ body.locked {
 
 nav {
   position: fixed;
+  z-index: 100;
   width: 100%;
   background: #fff;
   overflow: hidden;
@@ -216,6 +217,7 @@ nav {
 
 .hero {
   padding-top: 74px;
+  padding-bottom: 150px;
   background: #EAF4F2;
 }
 
@@ -263,6 +265,143 @@ nav {
   font-size: 30px;
   line-height: 36px;
   color: #4EBC98;
+}
+
+.tour {
+  padding: 100px 0;
+  background: #fff;
+}
+
+.tour__text {
+  margin-top: 15px;
+}
+
+.tour__slider {
+  margin-top: 50px;
+}
+
+.tour__slide {
+  background: #fff;
+  -webkit-box-shadow: 0px 4px 20px rgba(43, 89, 255, 0.06);
+          box-shadow: 0px 4px 20px rgba(43, 89, 255, 0.06);
+}
+
+.tour__img {
+  max-width: 100%;
+}
+
+.tour__foot {
+  padding: 30px 20px 20px 20px;
+}
+
+.tour__time {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #4EBC98;
+  padding: 5px;
+  position: relative;
+  z-index: 4;
+  background: #fff;
+  margin-top: -48px;
+  margin-bottom: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
+  border: 2px solid #4EBC98;
+  border-radius: 5px;
+  max-width: 64px;
+}
+
+.tour__time-icon {
+  max-width: 20px;
+}
+
+.tour__name {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  color: #1A1A3D;
+}
+
+.tour__name:hover {
+  color: #FD4C5C;
+}
+
+.tour__location {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #444444;
+  padding: 14px 0 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
+}
+
+.tour__location-icon {
+  max-width: 20px;
+}
+
+.tour__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.tour__price {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.tour__btn {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 4px 20px;
+  color: #fff;
+  background: #FD4C5C;
+  border-radius: 5px;
+  border: 1px solid #FD4C5C;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.tour__btn:hover {
+  color: #FD4C5C;
+  background: #fff;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 50px;
+}
+
+.section-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444444;
 }
 
 @media screen and (max-width: 991.98px) {

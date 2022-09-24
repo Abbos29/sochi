@@ -391,6 +391,36 @@ nav {
   background: #fff;
 }
 
+.tour__button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  color: #FD4C5C;
+  padding: 10px 0px;
+  border-radius: 5px;
+  border: 1px solid #FD4C5C;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 100px auto 0;
+  width: 155px;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.tour__button:hover {
+  color: #fff;
+  background: #FD4C5C;
+}
+
 .section-title {
   font-weight: 700;
   font-size: 42px;
@@ -402,6 +432,66 @@ nav {
   font-size: 16px;
   line-height: 26px;
   color: #444444;
+}
+
+.benefits__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+}
+
+.benefits__compas {
+  margin-bottom: 20px;
+}
+
+.benefits__title {
+  margin-top: 15px;
+}
+
+.benefits__pretitle {
+  margin: 20px 0 40px;
+}
+
+.benefits__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.benefits__imgs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.benefits__circle-img {
+  border-style: solid;
+  border-width: 10px 10px 10px 10px;
+  border-color: #FFFFFF;
+  border-radius: 200px 200px 200px 200px;
+  -webkit-box-shadow: 10px 2px 50px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 10px 2px 50px 0px rgba(0, 0, 0, 0.1);
+}
+
+.benefits .circle-img-1 {
+  position: relative;
+  z-index: 2;
+  margin-right: -140px;
 }
 
 @media screen and (max-width: 991.98px) {

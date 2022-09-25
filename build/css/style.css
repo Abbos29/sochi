@@ -705,6 +705,150 @@ nav {
   background-size: 100% 300px;
 }
 
+.gid-1 {
+  padding: 150px 0;
+  background: #F2FCFA;
+}
+
+.gid__location {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
+  margin: 25px 0 30px;
+}
+
+.gid__swiper {
+  margin: 30px 0 40px;
+}
+
+.gid__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 50px;
+  margin: 50px 0;
+}
+
+.gid__map p {
+  margin-bottom: 20px;
+}
+
+.gid__desc {
+  border-radius: 15px;
+  background: #fff;
+  padding: 30px;
+}
+
+.contact-form {
+  max-width: 480px;
+  min-width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contact-form label {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 34px;
+  color: #111B19;
+  margin-bottom: 20px;
+}
+
+textarea {
+  min-height: 150px;
+}
+
+input[type=text],
+textarea {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  outline: none;
+  max-width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 2px solid #111B19;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+input[type=text]::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #444444;
+}
+
+input[type=text]::-moz-placeholder, textarea::-moz-placeholder {
+  color: #444444;
+}
+
+input[type=text]:-ms-input-placeholder, textarea:-ms-input-placeholder {
+  color: #444444;
+}
+
+input[type=text]::-ms-input-placeholder, textarea::-ms-input-placeholder {
+  color: #444444;
+}
+
+input[type=text]::placeholder,
+textarea::placeholder {
+  color: #444444;
+}
+
+input[type=text]:focus,
+textarea:focus {
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+input[type=button] {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  padding: 15px 15px;
+  background: #111B19;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  margin-top: 20px;
+  -webkit-box-shadow: 0px 5px 0px #111B19;
+          box-shadow: 0px 5px 0px #111B19;
+}
+
+input[type=button]:hover {
+  color: #FFF;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+input[type=button]:active {
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+  top: 3px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+input[type=button]:focus {
+  position: relative;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  outline: none;
+}
+
 .footer {
   padding: 30px 0;
 }
@@ -978,6 +1122,14 @@ nav {
   .direct-list {
     padding: 100px 0;
   }
+
+  .contact-form {
+    min-width: 80%;
+  }
+
+  textarea {
+    min-height: auto;
+  }
 }
 
 @media (max-width: 479.98px) {
@@ -998,5 +1150,9 @@ nav {
   .beard__title {
     font-size: 40px;
     line-height: 54px;
+  }
+
+  .contact-form {
+    min-width: 100%;
   }
 }

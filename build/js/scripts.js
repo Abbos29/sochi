@@ -75,3 +75,29 @@ const swiperReviews = new Swiper('.reviews__swiper', {
     },
     }
 });
+
+const swiperGid = new Swiper('.gid__swiper', {
+    slidesPerView: 3,
+    spaceBetween: 40,
+    loop: true,
+
+    // Responsive breakpoints
+    breakpoints: {
+    1400: {
+        slidesPerView: 3,
+        spaceBetween: 30
+    },
+    720: {
+        slidesPerView: 2,
+        spaceBetween: 30
+    },
+    480: {
+        slidesPerView: 2,
+        spaceBetween: 20
+    },
+    310: {
+        slidesPerView: 1,
+        spaceBetween: 10
+    },
+    }
+});

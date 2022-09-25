@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Landing Page">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Экскурсия 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Nunito:wght@400;500;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+    <link rel="icon" href="./img/favicon.png">
+    <link rel="stylesheet" href="./css/style.min.css">
+</head>
+
+<body class="main__body">
+<!-- Header -->
+<header>
+    <!-- Navbar -->
+    <nav>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo"> <a href="index.html"> <img src="./img/logo.png" alt="logo"> </a> </div>
+                <ul class="menu">
+                    <!-- <li class="menu__item"><a href="#" class="menu__item-link" data-scroll>Портфолио</a></li> -->
+                </ul>
+                <!-- <div class="burger">
+                    <span></span>
+                </div> -->
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!-- Main Page -->
+<main>
+
+<!-- Gid-1 -->
+<section class="gid-1 gid">
+    <div class="container">
+        <h2 class="section-title">Экскурсия с живым гидом</h2>
+        <p class="gid__location">
+            <img class="map-icon" src="./img/tour/map-icon.png" alt="map-icon">
+            Сочи, Краснодарский край, Россия
+        </p>
+
+        <div class="gid__swiper swiper"">
+            <div class="gid__slider swiper-wrapper">
+
+                <div class="gid__slide swiper-slide">
+                    <img style="max-width: 100%;" class="gid__img" src="./img/tour/tour-1.jpeg" alt="gid-img">
+                </div>
+
+                <div class="gid__slide swiper-slide">
+                    <img style="max-width: 100%;" class="gid__img" src="./img/tour/tour-2.jpeg" alt="gid-img">
+                </div>
+
+                <div class="gid__slide swiper-slide">
+                    <img style="max-width: 100%;" class="gid__img" src="./img/tour/tour-3.jpeg" alt="gid-img">
+                </div>
+
+            </div>
+        </div>
+
+        <div class="gid__wrapper">
+            <div class="gid__map">
+                <p class="section-title">Карта тура</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d1444.5911680967315!2d39.734713!3d43.602745!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1664113801862!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div class="gid__desc">
+                <p class="section-title">Название</p>
+                <p class="section-text">Далеко-далеко, за словесными горами в стране гласных и согласных живут рыбные тексты.</p>
+            </div>
+        </div>
+
+        <!-- Form -->
+
+        <form class="contact-form" id="contact-form">
+            <!-- Name Field -->
+            <label>БУДЬТЕ ПЕРВЫМ, КТО ОСТАВИТ ОТЗЫВ О "ЭКСКУРСИЯ С ЖИВЫМ ГИДОМ"</label>
+            <input type="text" placeholder="Имя"/>
+
+            <!-- Email Field -->
+            <input type="text" placeholder="Эл. адрес"/>
+
+            <!-- Message Field -->
+            <textarea name="textarea" rows="3" cols="20" placeholder="Опишите свой отзыв"></textarea>
+
+            <!-- Submit Button -->
+            <input type="button" value="добавить отзыв"/>
+        </form>
+
+
+    </div>
+</section>
+
+
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer__wrapper">
+            <p class="footer__text section-text">© 2022 | ZolotoeKolcoSochi.Com | ИП Кириянова Анастасия Сергеевна</p>
+
+            <div class="footer__pays">
+                <img class="footer__pay-img" src="./img/footer/pay-1.png" alt="pay">
+                <img class="footer__pay-img" src="./img/footer/pay-2.png" alt="pay">
+                <img class="footer__pay-img" src="./img/footer/pay-3.png" alt="pay">
+                <img class="footer__pay-img" src="./img/footer/pay-4.png" alt="pay">
+                <img class="footer__pay-img" src="./img/footer/pay-5.png" alt="pay">
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="./js/scripts.min.js"></script>
+
+</html>

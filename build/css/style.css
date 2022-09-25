@@ -653,6 +653,58 @@ nav {
   color: #111B19;
 }
 
+.tour-list {
+  padding: 100px 0;
+  background-image: url(../img/beard-bg.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 100% 300px;
+}
+
+.beard__title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 84px;
+  color: #fff;
+  text-align: center;
+}
+
+.beard__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.beard__item {
+  color: #fff;
+}
+
+.beard__item a {
+  color: #fff;
+}
+
+.beard__item a:hover {
+  color: #FD4C5C;
+}
+
+.beard__arrow {
+  -webkit-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+.direct-list {
+  padding: 100px 0;
+  background-image: url(../img/beard-bg.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 100% 300px;
+}
+
 .footer {
   padding: 30px 0;
 }
@@ -913,6 +965,19 @@ nav {
   .reviews__slide {
     padding: 40px 60px;
   }
+
+  .tour-list {
+    padding: 100px 0;
+  }
+
+  .beard__title {
+    font-size: 50px;
+    line-height: 74px;
+  }
+
+  .direct-list {
+    padding: 100px 0;
+  }
 }
 
 @media (max-width: 479.98px) {
@@ -928,5 +993,10 @@ nav {
 
   .reviews__slide {
     padding: 15px 35px 20px;
+  }
+
+  .beard__title {
+    font-size: 40px;
+    line-height: 54px;
   }
 }

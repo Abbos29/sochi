@@ -6,10 +6,8 @@ const swiperHero = new Swiper('.hero__swiper', {
     spaceBetween: 40,
     loop: true,
 
-    pagination: {
-        el: '.swiper-pagination',
-        type: 'bullets',
-        clickable: true,
+    autoplay: {
+        delay: 3000,
     },
 
     // Responsive breakpoints
@@ -35,6 +33,10 @@ const swiperTour = new Swiper('.tour__swiper', {
     slidesPerView: 3,
     spaceBetween: 40,
     loop: true,
+
+    autoplay: {
+        delay: 5000,
+    },
 
     pagination: {
         el: '.swiper-pagination',
@@ -69,6 +71,10 @@ const swiperReviews = new Swiper('.reviews__swiper', {
     spaceBetween: 40,
     loop: true,
 
+    autoplay: {
+        delay: 5000,
+    },
+
     pagination: {
         el: '.swiper-pagination',
         type: 'bullets',
@@ -98,6 +104,10 @@ const swiperGid = new Swiper('.gid__swiper, .direct__swiper', {
     slidesPerView: 3,
     spaceBetween: 40,
     loop: true,
+
+    autoplay: {
+        delay: 5000,
+    },
 
     pagination: {
         el: '.swiper-pagination',

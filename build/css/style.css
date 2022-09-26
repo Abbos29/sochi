@@ -732,15 +732,24 @@ nav {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  gap: 50px;
+  gap: 15px;
   margin: 50px 0;
+}
+
+.gid__map {
+  max-width: 600px;
 }
 
 .gid__map p {
   margin-bottom: 20px;
 }
 
+.gid__map iframe {
+  max-width: 100%;
+}
+
 .gid__desc {
+  max-width: 100%;
   border-radius: 15px;
   background: #fff;
   padding: 30px;
@@ -847,6 +856,64 @@ input[type=button]:focus {
   -o-transition: all 0.2s;
   transition: all 0.2s;
   outline: none;
+}
+
+.direct-1 {
+  padding: 150px 0;
+  background: #EAF4F2;
+  background-image: url(../img/beard-bg.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 100% 300px;
+}
+
+.direct__location {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
+  margin: 25px 0 30px;
+}
+
+.direct__swiper {
+  margin: 30px 0 40px;
+}
+
+.direct__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 15px;
+  margin: 50px 0;
+}
+
+.direct__map {
+  max-width: 600px;
+}
+
+.direct__map p {
+  margin-bottom: 20px;
+}
+
+.direct__map iframe {
+  max-width: 100%;
+}
+
+.direct__desc {
+  max-width: 100%;
+  border-radius: 15px;
+  background: #fff;
+  padding: 30px;
+}
+
+.direct .beard__banner {
+  margin-bottom: 100px;
 }
 
 .footer {
@@ -1079,6 +1146,20 @@ input[type=button]:focus {
   .benefits__pretitle {
     margin: 20px 16px 40px;
   }
+
+  .gid__wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .direct__wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 @media (max-width: 767.98px) {
@@ -1123,12 +1204,28 @@ input[type=button]:focus {
     padding: 100px 0;
   }
 
+  .gid__map iframe {
+    max-height: 300px;
+  }
+
+  .gid__desc {
+    padding: 15px;
+  }
+
   .contact-form {
     min-width: 80%;
   }
 
   textarea {
     min-height: auto;
+  }
+
+  .direct__map iframe {
+    max-height: 300px;
+  }
+
+  .direct__desc {
+    padding: 15px;
   }
 }
 

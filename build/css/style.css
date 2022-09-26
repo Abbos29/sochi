@@ -740,6 +740,10 @@ nav {
   margin: 30px 0 40px;
 }
 
+.gid__slider {
+  margin-bottom: 45px;
+}
+
 .gid__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;

@@ -6,6 +6,12 @@ const swiperHero = new Swiper('.hero__swiper', {
     spaceBetween: 40,
     loop: true,
 
+    pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+        clickable: true,
+    },
+
     // Responsive breakpoints
     breakpoints: {
     // when window width is >= 320px
@@ -29,6 +35,12 @@ const swiperTour = new Swiper('.tour__swiper', {
     slidesPerView: 3,
     spaceBetween: 40,
     loop: true,
+
+    pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+        clickable: true,
+    },
 
     // Responsive breakpoints
     breakpoints: {
@@ -57,6 +69,12 @@ const swiperReviews = new Swiper('.reviews__swiper', {
     spaceBetween: 40,
     loop: true,
 
+    pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+        clickable: true,
+    },
+
     // Responsive breakpoints
     breakpoints: {
     // when window width is >= 320px
@@ -80,6 +98,12 @@ const swiperGid = new Swiper('.gid__swiper, .direct__swiper', {
     slidesPerView: 3,
     spaceBetween: 40,
     loop: true,
+
+    pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+        clickable: true,
+    },
 
     // Responsive breakpoints
     breakpoints: {

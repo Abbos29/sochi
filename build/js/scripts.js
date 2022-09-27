@@ -99,7 +99,7 @@ const swiperReviews = new Swiper('.reviews__swiper', {
 const swiperGid = new Swiper('.gid__swiper, .direct__swiper', {
     slidesPerView: 3,
     spaceBetween: 40,
-    loop: true,
+    loop: false,
 
     autoplay: {
         delay: 5000,

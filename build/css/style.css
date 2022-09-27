@@ -296,22 +296,24 @@ nav {
 }
 
 .tour__swiper {
+  max-width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .tour__slider {
+  max-width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  gap: 20px;
+  gap: 25px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin: 50px 0;
@@ -367,6 +369,7 @@ nav {
   -o-transition: all 0.2s;
   transition: all 0.2s;
   color: #1A1A3D;
+  text-transform: uppercase;
 }
 
 .tour__name:hover {
@@ -1207,6 +1210,12 @@ input[type=button]:focus {
 @media (max-width: 767.98px) {
   .tour {
     padding: 60px 0;
+  }
+
+  .tour__slider {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 
   .benefits {

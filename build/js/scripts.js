@@ -12,12 +12,10 @@ const swiperHero = new Swiper('.hero__swiper', {
 
     // Responsive breakpoints
     breakpoints: {
-    // when window width is >= 320px
     720: {
         slidesPerView: 1,
         spaceBetween: 30
     },
-    // when window width is >= 480px
     480: {
         slidesPerView: 1,
         spaceBetween: 20
@@ -29,7 +27,7 @@ const swiperHero = new Swiper('.hero__swiper', {
     }
 });
 
-const swiperTour = new Swiper('.tour__swiper', {
+const swiperTour = new Swiper('', {
     slidesPerView: 3,
     spaceBetween: 40,
     loop: true,
@@ -83,12 +81,10 @@ const swiperReviews = new Swiper('.reviews__swiper', {
 
     // Responsive breakpoints
     breakpoints: {
-    // when window width is >= 320px
     720: {
         slidesPerView: 1,
         spaceBetween: 30
     },
-    // when window width is >= 480px
     480: {
         slidesPerView: 1,
         spaceBetween: 20

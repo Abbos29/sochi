@@ -276,13 +276,13 @@ nav {
   font-weight: 400;
   font-size: 30px;
   line-height: 36px;
-  color: #4EBC98;
+  color: #06B6D4;
 }
 
 .swiper-pagination-bullet {
   width: 10px;
   height: 10px;
-  background: #FD4C5C;
+  background: #2563EB;
   z-index: 150;
 }
 
@@ -338,7 +338,7 @@ nav {
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
-  color: #4EBC98;
+  color: #06B6D4;
   padding: 5px;
   position: relative;
   z-index: 4;
@@ -352,7 +352,7 @@ nav {
       -ms-flex-align: center;
           align-items: center;
   gap: 5px;
-  border: 2px solid #4EBC98;
+  border: 2px solid #06B6D4;
   border-radius: 5px;
   max-width: 64px;
 }
@@ -373,7 +373,7 @@ nav {
 }
 
 .tour__name:hover {
-  color: #FD4C5C;
+  color: #2563EB;
 }
 
 .tour__location {
@@ -419,16 +419,16 @@ nav {
   line-height: 24px;
   padding: 4px 20px;
   color: #fff;
-  background: #FD4C5C;
+  background: #2563EB;
   border-radius: 5px;
-  border: 1px solid #FD4C5C;
+  border: 1px solid #2563EB;
   -webkit-transition: all 0.2s;
   -o-transition: all 0.2s;
   transition: all 0.2s;
 }
 
 .tour__btn:hover {
-  color: #FD4C5C;
+  color: #2563EB;
   background: #fff;
 }
 
@@ -437,10 +437,10 @@ nav {
   font-weight: 600;
   font-size: 16px;
   line-height: 16px;
-  color: #FD4C5C;
+  color: #2563EB;
   padding: 10px 0px;
   border-radius: 5px;
-  border: 1px solid #FD4C5C;
+  border: 1px solid #2563EB;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -459,7 +459,7 @@ nav {
 
 .tour__button:hover {
   color: #fff;
-  background: #FD4C5C;
+  background: #2563EB;
 }
 
 .section-title {
@@ -610,7 +610,7 @@ nav {
   color: #fff;
   padding: 8px 12px;
   border-radius: 5px;
-  background: #FD4C5C;
+  background: #2563EB;
   position: relative;
   width: 120px;
   z-index: 2;
@@ -725,7 +725,7 @@ nav {
 }
 
 .beard__item a:hover {
-  color: #FD4C5C;
+  color: #2563EB;
 }
 
 .beard__arrow {
